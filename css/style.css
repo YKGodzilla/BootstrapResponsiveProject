@@ -1,0 +1,106 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.iphone {
+  height: 500px;
+}
+
+.banner-column1 {
+  padding-top: 270px;
+}
+
+.head-banner {
+  height: 120px;
+}
+
+.grid-button {
+  display: grid;
+  grid-template-rows: 42px;
+  grid-template-columns: 135px 135px;
+  gap: 15px;
+}
+
+#testimonial {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.brands {
+  width: 150px;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-top: 100px;
+}
+
+@media (max-width: 992px) {
+  .head-banner {
+    text-align: center;
+    height: 100px;
+  }
+  .grid-button {
+    display: flex;
+    justify-content: center;
+  }
+  .iphone {
+    padding-top: 50px;
+  }
+  .banner-column1 {
+    padding-top: 100px;
+  }
+  .feature-section{
+    width: 480px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .center-feature {
+    display: flex;
+    justify-content: center;
+  }
+  .brand-flexing {
+    display: flex;
+    justify-content: center;
+  }
+  .brand-row {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-col {
+    text-align: center;
+    width: 200px;
+  }
+}
